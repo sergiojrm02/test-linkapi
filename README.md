@@ -17,10 +17,10 @@
 - Execute na raiz do projeto
   >  `npm start` 
 - Rotas
-  - <localhost:8000/bling/insert-ordered> insere no bling novas negociações que estão salvas no mongo
-  - <localhost:8000/pipe-drive/search-all-negotiation> - busca novas negociações "ganhas" e salva no mongo
-  - <localhost:8000/orders/reports> - Exibe um consolidado dos valores das negociações
-  - <localhost:8000/orders> - Exibe um listado de negociações
+  - /bling/insert-ordered - Insere no bling novas negociações que estão salvas no mongo
+  - /pipe-drive/search-all-negotiation - Busca novas negociações "ganhas" e salva no mongo
+  - /orders/reports - Exibe um consolidado dos valores das negociações
+  - /orders - Exibe um listado de negociações
 
 ## Variáveis [(.env)](.env)
 
